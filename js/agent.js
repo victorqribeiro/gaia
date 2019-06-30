@@ -71,8 +71,13 @@ class Agent {
   hunting(){
   
   	this.hunger += 3;
-  		
-  	if( Math.random() < this.ability ){
+  	
+  	let ability = this.ability;
+  	
+  	if( this.age < 10 || this.age > 50 )
+  		ability /= 2;
+  	
+  	if( Math.random() < ability ){
     	this.food += Math.round( Math.random() * 20);
     }
     

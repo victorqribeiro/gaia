@@ -33,7 +33,7 @@ The player encounters a NPC that is very hungry and decide to feed it. This NPC 
 
 ## Interaction
 
-In this example the Agent has 3 states: idle, hunting and dead. If the Agent is hunting, it roams the map looking for food.
+In this example the Agent has 3 states: idle, hunting and dead. If the Agent is hunting, it roams the map looking for food. When the Agent is younger than 10 or older than 50 years, it's change of huting with success drops to half.
 
 You can help the Agent feeding it, increasing it's affinity towards you, by clicking **feed**.
 

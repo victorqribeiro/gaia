@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 1.2em;
+	background-color: #333;
+}
+
+canvas {
+	display: block;
+}
+
+#main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+}
+
+#screen {
+	width: 80%;
+	background: #DCE35B;
+	background: -webkit-linear-gradient(to bottom, #45B649, #DCE35B);
+	background: linear-gradient(to bottom, #45B649, #DCE35B);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#status {
+	width: 80%;
+	background-color: white;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.row > div {
+	width: 50%;
+	background-color: orange;
+	padding: 0.2em;
+}
+
+button{
+	font-size: 1em;
+}
+

@@ -1,9 +1,10 @@
 # GAIA
 
-Generic Artificial Intelligence Agent. [Live version](https://victorribeiro.com/gaia).
+Generic Artificial Intelligence Agent.  
 An AI concept that can help the game designer create procedural quests.
 
 ![screenshot](screenshot.png)
+[Live version](https://victorribeiro.com/gaia).
 
 ## About
 
